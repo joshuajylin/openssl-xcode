@@ -25,6 +25,7 @@ In a normal case you would use it thusly:
       as openssl.xcodeproj.
    d. Setup a source tree definition in XCode for OPENSSL_SRC pointing the
       folder containing openssl source code
+4. run xcodebuild in terminal
 
 Then, either open openssl.xcodeproj in XCode and initiate a build, or integrate
 it within another project:
